@@ -98,5 +98,5 @@ MIT License — free use for defensive and educational purposes.
   <strong>TAVARDT — Australia</strong><br>
   <a href="https://ag.tavardt.com/au/">https://ag.tavardt.com/au/</a> &bull;
   <a href="https://tools.tavardt.com/au/">https://tools.tavardt.com/au/</a><br>
-  &copy; 2025 TAVARDT. All rights reserved.
+  &copy; 2026 TAVARDT. All rights reserved.
 </p>
