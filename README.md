@@ -34,8 +34,6 @@ Access the interactive tool directly:
 
 🌐 **[https://tavardt-australia.github.io/llm-robustness-evaluator-au/](https://tavardt-australia.github.io/llm-robustness-evaluator-au/)**
 
-🛠 **[https://tools.tavardt.com/au/](https://tools.tavardt.com/au/)**
-
 ---
 
 ## CLI Usage
