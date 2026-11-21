@@ -1,17 +1,10 @@
+# LLM Robustness Evaluator & Guardrails Stress Tester
+
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-00ff88?style=flat-square&logo=github)](https://tavardt-australia.github.io/llm-robustness-evaluator-au/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![OWASP LLM](https://img.shields.io/badge/OWASP-LLM01%2FLLM02-red?style=flat-square)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 [![NIST AI RMF](https://img.shields.io/badge/NIST-AI%20RMF-blue?style=flat-square)](https://www.nist.gov/artificial-intelligence)
-
-<p align="center">
-  <a href="https://ag.tavardt.com/au/">
-    <img src="https://ag.tavardt.com/img/tavardt-banner.png" alt="TAVARDT" width="600">
-  </a>
-</p>
-
-# LLM Robustness Evaluator & Guardrails Stress Tester
-
 **Defensive Guardrails Audit, Prompt Injection Testing, and AI Model Resilience**
 
 Interactive web tool and CLI for developers auditing LLM guardrail robustness against injection vectors, system prompt leakage, and structural attacks. Resilience Score 0-100 + defensive blueprint.
