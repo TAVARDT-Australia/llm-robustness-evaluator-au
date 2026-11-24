@@ -133,7 +133,7 @@ def main():
                         help="System prompt text to audit")
     parser.add_argument("--file", "-f", type=str, default=None,
                         help="Path to a text file containing the system prompt")
-    parser.add_argument("--version", action="version", version=f"%(prog)s {TOOL_VERSION}")
+    parser.add_argument("-v", "--version", action="version", version=f"%(prog)s {TOOL_VERSION}")
     args = parser.parse_args()
 
     if args.file:
