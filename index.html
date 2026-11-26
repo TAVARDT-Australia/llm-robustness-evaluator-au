@@ -402,6 +402,42 @@ footer a:hover{color:var(--green)}
     display: block;
   }
 
+
+    .faq-btn {
+      width: 100%;
+      background: transparent;
+      border: none;
+      padding: 16px 20px;
+      text-align: left;
+      font-size: 0.96rem;
+      font-weight: 600;
+      color: #f1f5f9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+    .faq-btn:hover {
+      background: #0f172a;
+    }
+    .faq-icon {
+      font-size: 1.25rem;
+      color: #839bc8;
+      transition: transform 0.2s ease;
+    }
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+    }
+    .faq-body {
+      display: none;
+      padding: 0 20px 18px;
+      color: #94a3b8;
+      font-size: 0.92rem;
+      line-height: 1.6;
+    }
+    .faq-item.active .faq-body {
+      display: block;
+    }
 </style>
 <style id="tavardt-unified-enterprise-css">
 
@@ -1458,45 +1494,51 @@ footer > div:first-child {
 <h2 class="faq-title">Frequently Asked Questions on LLM Robustness</h2>
 <div class="faq-list">
 <div class="faq-item">
-<button class="faq-question" onclick="toggleFaq(this)" type="button">
+<button class="faq-btn" onclick="toggleFaq(this)" type="button">
 <span>What is behavioral drift in production language models?</span>
 <span class="faq-icon">+</span>
 </button>
-<div class="faq-answer">
+<div class="faq-body">
 <p>Behavioral drift represents shifts in model reasoning and response style over time, caused by evolving prompt distributions or unannounced provider-side model updates.</p>
 </div>
 </div>
 <div class="faq-item">
-<button class="faq-question" onclick="toggleFaq(this)" type="button">
+<button class="faq-btn" onclick="toggleFaq(this)" type="button">
 <span>How does adversarial perturbation testing prove robustness?</span>
 <span class="faq-icon">+</span>
 </button>
-<div class="faq-answer">
+<div class="faq-body">
 <p>By systematically applying minor, human-imperceptible modifications to prompt texts and verifying whether output accuracy and safety remain strictly invariant.</p>
 </div>
 </div>
 <div class="faq-item">
-<button class="faq-question" onclick="toggleFaq(this)" type="button">
+<button class="faq-btn" onclick="toggleFaq(this)" type="button">
 <span>Why is calibrated uncertainty estimation essential for enterprise AI?</span>
 <span class="faq-icon">+</span>
 </button>
-<div class="faq-answer">
+<div class="faq-body">
 <p>It quantifies the confidence of the model in its generated response, triggering safe fallback mechanisms before hallucinatory statements reach end users.</p>
 </div>
 </div>
 <div class="faq-item">
-<button class="faq-question" onclick="toggleFaq(this)" type="button">
+<button class="faq-btn" onclick="toggleFaq(this)" type="button">
 <span>How does TAVARDT evaluate and harden production LLMs?</span>
 <span class="faq-icon">+</span>
 </button>
-<div class="faq-answer">
+<div class="faq-body">
 <p>We run exhaustive adversarial stress benchmarks, deploy semantic drift monitors, and calibrate confidence gates across mission-critical enterprise workloads.</p>
 </div>
 </div>
 <div class="faq-item">
-<div class="faq-question"><span>How does TAVARDT harden production LLM systems?</span><span class="faq-toggle">+</span></div>
-<div class="faq-answer"><p>TAVARDT designs multi-layered defense architectures: ultra-low latency edge filters, deterministic semantic token gates, and automated behavioral drift monitors.</p></div>
-</div></div>
+<button class="faq-btn" onclick="toggleFaq(this)" type="button">
+<span>How does TAVARDT harden production LLM systems?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-body">
+<p>TAVARDT designs multi-layered defense architectures: ultra-low latency edge filters, deterministic semantic token gates, and automated behavioral drift monitors.</p>
+</div>
+</div>
+</div>
 </section>
 <div class="cta-card">
 <h3>Require Enterprise Hardening for Your Production LLMs?</h3>
